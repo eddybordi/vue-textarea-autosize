@@ -44,7 +44,7 @@ var script = {
       val: null,
       // works when content height becomes more then value of the maxHeight property
       maxHeightScroll: false,
-      height: '40px'
+      height: '38px'
     }
   },
   computed: {
@@ -92,7 +92,7 @@ var script = {
       var _this = this
 
       var important = this.isHeightImportant ? 'important' : ''
-      this.height = "40px".concat(important ? ' !important' : '')
+      this.height = "38px".concat(important ? ' !important' : '')
       this.$nextTick(function () {
         var contentHeight = _this.$el.scrollHeight + 1
         console.log('contentHeight', contentHeight)
