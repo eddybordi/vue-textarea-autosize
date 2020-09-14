@@ -95,7 +95,6 @@ var script = {
       this.height = "38px".concat(important ? ' !important' : '')
       this.$nextTick(function () {
         var contentHeight = _this.$el.scrollHeight + 1
-        console.log('contentHeight', contentHeight)
 
         if (_this.minHeight) {
           contentHeight = contentHeight < _this.minHeight ? _this.minHeight : contentHeight
